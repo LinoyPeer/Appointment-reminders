@@ -1,0 +1,145 @@
+body {
+    font-family: "Playwrite GB S", Tahoma;
+    direction: rtl;
+    text-align: center;
+    background-color: #f0f0f5;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: Tahoma;
+    font-weight: 400;
+}
+
+.task-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.task-list {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 30vw;
+    text-align: center;
+}
+
+.early {
+    border-top: 6px solid #007bff;
+}
+
+.roles {
+    font-weight: 400;
+}
+
+.late {
+    border-top: 6px solid #dc3545;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.input-container {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    flex: 1;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.add-btn {
+    background: #7CC299;
+    color: black;
+}
+
+.add-btn:hover {
+    background: #218838;
+}
+
+.clear-btn {
+    background: #FFA7A6;
+    color: white;
+}
+
+.clear-btn:hover {
+    background: #c82333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+li:hover {
+    background: #e9ecef;
+}
+
+.task-text {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-btn {
+    background: #7CC299;
+    color: black;
+    padding: 5px;
+}
+
+.edit-btn:hover {
+    background: #e0a800;
+}
+
+.delete-btn {
+    background: #FFA7A6;
+    color: white;
+    padding: 5px;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
